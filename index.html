@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+    <title> Portal Hinomaru</title>
+
+</head>
+<body>
+    <header class="menu-principal">
+        <main>
+            <div class="header-1">
+              <div class="logo">
+                      <img src="">
+                     </div>
+                      <div class="redes-sociais">
+                            <ul> 
+                                  <li>
+                                        <a href=""><img src="./img/anchor.fm.png">
+                                        </a>
+                                  </li>
+                                  <li>
+                                        <a href=""><img src="./img/facebook.png">
+                                        </a>
+                                  </li>            
+                                  <li>
+                                        <a href=""><img src="./img/instagram.png">
+                                        </a>
+                                  </li>          
+                                  <li>
+                                        <a href=""><img src="./img/spotify.png">
+                                        </a>
+                                  </li>
+                                  <li>
+                                        <a href=""><img src="./img/twitter.png">
+                                        </a>
+                                  </li>
+                            </ul>
+                       </div>       
+                </div>
+                
+               
+          </main>  
+
+
+
+
+          <a href="#" class="btn-abrir" onclick="abrirMenu()">&#9776; Abrir</a>
+
+    </header>
+    
+    <nav id="menu">
+        <a href="#" onclick="fecharMenu()">&times; Fechar</a>
+        <a href="#">Noticias</a>
+        <a href="#">Podcast</a>
+        <a href="#">Equipe</a>
+    </nav>
+    <main id="conteudo">
+        <h1>Noticias J.League</h1>
+        <p>Conteudo do site.</p>
+    </main>
+
+    <script>
+        function abrirMenu(){
+            document.getElementById('menu').style.width = '250px';
+            document.getElementById('conteudo').style.marginLeft = '250px';
+        }
+
+        function fecharMenu(){
+            document.getElementById('menu').style.width = '0px';
+            document.getElementById('conteudo').style.marginLeft = '0px';
+        }
+
+    </script>
+
+</body>
+</html>
