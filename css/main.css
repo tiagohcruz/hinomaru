@@ -1,0 +1,65 @@
+.menu-principal { 
+    background-color: #1a377b;
+    height: 50px;
+}
+
+
+.logo {
+    float: right;
+    margin-top: auto;
+    padding: 0;
+    width: 0%;
+}
+
+.redes-sociais ul li {
+    display: inline-block;
+    list-style: none;
+}
+.redes-sociais {
+    width: 50%;
+    float: right;
+}
+
+
+body{
+           
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+a {
+    text-decoration: none;
+}
+
+.btn-abrir{
+    color:white;
+    font-size: 25px;
+}
+
+nav {
+    height: 100%;
+    width: 0px;
+    background-color: rgb(26, 53, 123);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    overflow: hidden;
+    transition: width 0.3s;
+}
+
+nav a{
+    color:white;
+    font-size: 25px;
+    display: block;
+    padding: 12px 10px 12px 32px;
+}
+
+nav a:hover{
+    color: white;
+    background-color: rgb(185, 35, 31);
+}
+
+main{
+    padding: 10px;
+    transition: margin-left 0.5s;
+}
